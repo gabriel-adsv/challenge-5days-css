@@ -1,0 +1,48 @@
+/* DAY ONE CHALLENGE */
+ul {
+  list-style: none;
+
+  display: flex;
+  gap: 0.7rem;
+  justify-content: center;
+  flex-direction: row;
+
+  cursor: pointer;
+}
+
+li {
+  width: 4rem;
+  height: 4rem;
+
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  padding: .8rem;
+  
+  border-radius: .5rem;
+  
+  background-color: var(--white-color);
+  
+  transition: width .4s ease;
+
+  cursor: pointer;
+}
+
+li span {
+  display: none;
+
+  color: var(--dark-color);
+
+  font-size: 1.3rem;
+}
+
+li:hover span {
+  display: flex;
+  margin-left: .8rem;
+}
+
+li:hover {
+  width: 15rem;
+}

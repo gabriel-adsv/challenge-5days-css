@@ -1,0 +1,18 @@
+/* MEDIA QUERIES */
+@media screen and (max-width: 425px) {
+  .content {
+    height: 90vh;
+  }
+
+  .social-media,
+  .animated-text,
+  .hover-effect,
+  .grey-scale {
+    width: 3.5rem;
+  }
+
+  .circles {
+    top: 7%;
+    left: 5%;
+  }
+}

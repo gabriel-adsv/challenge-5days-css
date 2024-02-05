@@ -1,0 +1,9 @@
+/* DAY TWO CHALLENGE */
+.text-content p {
+  font-weight: 400;
+}
+
+.text-content span {
+  font-weight: 600;
+  color: var(--purple-color);
+}

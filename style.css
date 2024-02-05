@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter&display=swap');
+@import url('css/header.css');
+@import url('css/day-one.css');
+@import url('css/day-two.css');
+@import url('css/day-three.css');
+@import url('css/day-four.css');
+@import url('css/day-five.css');
+@import url('css/footer.css');
+@import url('css/scroll.css');
+@import url('css/media-queries.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+:root {
+  --red-color: #EE3A32;
+  --dark-color: #111111;
+  --gray-color: #222222;
+  --light-gray: #555555;
+  --green-color: #83D75B; 
+  --light-color: #EFD3FF;
+  --white-color: #FFFFFF;
+  --purple-color: #8A2EDC;
+  --yellow-color: #FBD73A;
+  --black-color: #00000080; 
+  --light-purple: #EED1FFCC;
+
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Inter', sans-serif;
+
+  color: var(--light-color);
+  background: var(--purple-color);
+}
+
+/* GENERAL SETTINGS */
+.content {
+  height: 100vh; 
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-social-media,
+.content-grey-scale {
+  height: 90vh;
+}
+
+h2 {
+  width: 27.5rem;
+
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: 'Courgette', cursive;
+
+  text-align: center;
+
+  margin-bottom: 5rem;
+}
+
+.social-media,
+.animated-text,
+.hover-effect,
+.grey-scale {
+  width: 55rem;
+  height: auto;
+
+  padding: 10rem;
+
+  border-radius: 1rem;
+
+  display: flex;
+  justify-content: center;
+
+  background-color: var(--dark-color);
+  box-shadow: .2rem .5rem 1rem .1px var(--black-color);
+
+  position: relative;
+}
+
+.circles {
+  display: flex;
+  gap: .5rem;
+
+  position: absolute;
+
+  top: 5%;
+  left: 2.5%;
+}
+
+.green {
+  width: 1rem;
+  height: 1rem;
+
+  border-radius: 50%;
+
+  background-color: var(--green-color);
+}
+
+.yellow {
+  width: 1rem;
+  height: 1rem;
+
+  border-radius: 50%;
+
+  background-color: var(--yellow-color);
+}
+
+.red {
+  width: 1rem;
+  height: 1rem;
+
+  border-radius: 50%;
+
+  background-color: var(--red-color)
+}

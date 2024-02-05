@@ -1,0 +1,25 @@
+/* DAY FOUR CHALLENGE */
+.star-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.star-rating p {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+#star-one,
+#star-two,
+#star-three,
+#star-four,
+#star-five {
+  width: 2.6rem;
+  height: 2.6rem;
+
+  color: var(--light-gray);
+  cursor:pointer;
+  transition: all ease 0.3s;
+}

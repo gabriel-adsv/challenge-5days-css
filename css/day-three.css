@@ -1,0 +1,63 @@
+/* DAY THREE CHALLENGE */
+.button-hover {
+  padding: 1.8rem 6.4rem;
+
+  border-radius: 1.6rem;
+
+  color: var(--light-color);
+  background-color: var(--purple-color);
+
+  font-weight: 600;
+
+  border: 3px solid var(--light-color);
+
+  position: relative;
+
+  cursor: pointer;
+
+  transition: all ease 0.3s;
+}
+
+#top-button {
+  width: 2.4rem;
+  height: .4rem;
+
+  top: -.4rem;
+  left: 1.6rem;
+
+  background-color: var(--dark-color);
+
+  transition: all ease 0.3s;
+
+  clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
+
+  position: absolute;
+}
+
+#bottom-button {
+  width: 2.4rem;
+  height: .4rem;
+
+  bottom: -4px;
+  right: 1.6rem;
+
+  background-color: var(--dark-color);
+
+  transition: all ease 0.3s;
+
+  clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
+
+  position: absolute;
+}
+
+.button-hover:hover {
+  background-color: var(--gray-color);
+}
+
+.button-hover:hover #top-button {
+  left: 16.5rem;
+}
+
+.button-hover:hover #bottom-button {
+  right: 16.5rem;
+}

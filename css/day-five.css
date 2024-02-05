@@ -1,0 +1,30 @@
+/* DAY FIVE CHALLENGE */
+.grey-scale {
+  padding: 6rem;
+}
+
+.photo-circles {
+  display: grid;
+  grid-template-columns: 9rem 9rem;
+  grid-template-rows: 9rem 9rem;
+  gap: 2.2rem;
+}
+
+.photo-circles img {
+  width: 9rem;
+  height: 9rem;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  transition: filter ease 0.5s;
+
+  cursor: pointer;
+
+  filter: grayscale(1);
+}
+
+.photo-circles img:hover {
+  filter: grayscale(0);
+}

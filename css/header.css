@@ -1,0 +1,54 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 4rem 4rem 0 4rem;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.challenge {
+  text-transform: uppercase;
+}
+
+.year {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav p {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+nav .number {
+  width: 2.6rem;
+
+  padding: .2rem;
+
+  border: .1rem solid var(--light-color);
+  border-radius: 50%;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: var(--light-color);
+
+  cursor: pointer;
+}
+
+nav .number:hover {
+  background: var(--light-purple);
+  color: var(--purple-color);
+}

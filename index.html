@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Desafio - 5 dias de CSS</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+    integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+    integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+</head>
+<body id="top">
+  <header>
+    <p class="challenge">desafio - 5 dias de css</p>
+    <p class="year">
+      <img src="assets/diagonal-arrow-right-down.svg" alt="seta diagonal apontando para direita e para baixo">
+      <span>2024</span>
+    </p>
+    <nav>
+      <p>Dias:</p>
+      <a href="#day-1" class="number">1</a>
+      <a href="#day-2" class="number">2</a>
+      <a href="#day-3" class="number">3</a>
+      <a href="#day-4" class="number">4</a>
+      <a href="#day-5" class="number">5</a>
+    </nav>
+  </header>
+
+  <section id="day-1" class="content content-social-media">
+    <h2>Ícones de Social Media</h2>
+    
+    <div class="social-media">
+      <div class="circles">
+        <div class="green"></div>
+        <div class="yellow"></div>
+        <div class="red"></div>
+      </div>
+
+      <ul>
+        <li id="github">
+          <img src="assets/github.svg" alt="logo do github">
+          <span>gabriel-adsv</span>
+        </li>
+        <li id="instagram">
+          <img src="assets/instagram.svg" alt="logo do instagram">
+          <span>ciencialiteraria</span>
+        </li>
+        <li id="skoob">
+          <img src="assets/skoob.svg" alt="logo do Skoob">
+          <span>palidopontoazul</span>
+        </li>
+        <li id="linkedin">
+          <img src="assets/linkedin.svg" alt="logo do LinkedIn">
+          <span>gabriel-adsv</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="day-2" class="content">
+    <h2>Texto animado</h2>
+    
+    <div class="animated-text">
+      <div class="circles">
+        <div class="green"></div>
+        <div class="yellow"></div>
+        <div class="red"></div>
+      </div>
+
+      <div class="text-content">
+        <p>Aqui você aprende: <span id="stacks"></span></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="day-3" class="content">
+    <h2>Botão com hover effect</h2>
+    
+    <div class="hover-effect">
+      <div class="circles">
+        <div class="green"></div>
+        <div class="yellow"></div>
+        <div class="red"></div>
+      </div>
+
+      <button class="button-hover">
+        <span id="top-button"></span>
+        HOVER HERE
+        <span id="bottom-button"></span>
+      </button>
+    </div>
+  </section>
+
+  <section id="day-4" class="content">
+    <h2>Avaliação por estrelas</h2>
+    
+    <div class="animated-text">
+      <div class="circles">
+        <div class="green"></div>
+        <div class="yellow"></div>
+        <div class="red"></div>
+      </div>
+
+      <div class="star-rating">
+        <p>Avalie a nossa plataforma:</p>
+        <div class="stars">
+          <i id="star-one" class="fa fa-star"></i>
+          <i id="star-two" class="fa fa-star"></i>
+          <i id="star-three" class="fa fa-star"></i>
+          <i id="star-four" class="fa fa-star"></i>
+          <i id="star-five" class="fa fa-star"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="day-5" class="content content-grey-scale">
+    <h2>Escala de cinza</h2>
+    
+    <div class="grey-scale">
+      <div class="circles">
+        <div class="green"></div>
+        <div class="yellow"></div>
+        <div class="red"></div>
+      </div>
+
+      <div class="photo-circles">
+        <img src="assets/images/foto-1.jpg" alt="Primeira foto">
+        <img src="assets/images/foto-2.jpg" alt="Segunda foto">
+        <img src="assets/images/foto-3.jpg" alt="Terceira foto">
+        <img src="assets/images/foto-4.png" alt="Quarta foto">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      Desenvolvidor por: 
+      <a href="https://github.com/gabriel-adsv" target="_blank">Gabriel Augusto</a>
+    </p>
+  </footer>
+
+
+  <article>
+    <button class="scrollTop" onclick="backTop()">
+      <img src="assets/arrow-up.svg" alt="Seta para cima">
+    </button>
+  </article>
+
+  <script src="main.js"></script>
+</body>
+</html>
