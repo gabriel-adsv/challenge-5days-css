@@ -1,5 +1,17 @@
 /* MEDIA QUERIES */
 @media screen and (max-width: 425px) {
+  header {
+    margin: 4rem 2rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  nav {
+    margin-left: 1.5rem;
+  }
+
   .content {
     height: 90vh;
   }
@@ -8,7 +20,7 @@
   .animated-text,
   .hover-effect,
   .grey-scale {
-    width: 3.5rem;
+    max-width: 35rem;
   }
 
   .circles {
